@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var secretnum = 9
+var guess1 = prompt("Guess the number between 1-10");
+var numguess1 = parseInt(guess1, 10);
+if (numguess1 == secretnum) {
+	console.log("HOW DID YOU KNOW");
+}
+else {
+	console.log("TRY AGAIN FOOL");
+	var guess2 = prompt("Guess the number between 1-10");
+    var numguess2 = parseInt(guess2, 10);
+
+if (numguess2 == secretnum) {
+	console.log("YOU RIGHT FAM");
+}
+else {
+	console.log("TRY AGAIN FOOL");
+	var guess3 = prompt("Guess the number between 1-10");
+    var numguess3 = parseInt(guess3, 10);
+}
+if (guess3 == secretnum) {
+	console.log("YOU SMART"); 
+}
+else {
+	console.log("YOU LOSE.")
+}
+}
+</script>
+</body>
+</html>
